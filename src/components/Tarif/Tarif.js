@@ -1,9 +1,9 @@
 import React from 'react'
-import TarifList from './TarifList/TarifList'
+
 
 export default function Tarif({ tarif }) {
-    let hitClass = "";
-    tarif.hit ? hitClass = "picture" : hitClass = "nothing"
+   
+   
     return (
         <div className="main">
             <div className="block">
