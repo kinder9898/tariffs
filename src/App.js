@@ -1,26 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import TarifList from './components/Tarif/TarifList/TarifList'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="logo">Tele2</div>
+      <div className="header"><span className="headerText">Будь на воле даже при нуле</span></div>
+      <h1>Тарифы</h1>
+      <TarifList/>
     </div>
-  );
+  )
 }
-
-export default App;
