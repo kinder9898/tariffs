@@ -1,5 +1,5 @@
 import React from 'react'
-import TarifList from './components/Tarif/TarifList/TarifList'
+import TariffList from './components/Tariff/TariffList/TariffList'
 
 export default function App() {
   return (
@@ -7,7 +7,7 @@ export default function App() {
       <div className="logo">Tele2</div>
       <div className="header"><span className="headerText">Будь на воле даже при нуле</span></div>
       <h1>Тарифы</h1>
-      <TarifList/>
+      <TariffList/>
     </div>
   )
 }
