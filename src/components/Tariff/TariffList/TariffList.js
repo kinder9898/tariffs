@@ -42,7 +42,7 @@ export default function TariffList() {
             'https://msk.tele2.ru/api/media/asset?mediaId=m1990041',
             'https://msk.tele2.ru/api/media/asset?mediaId=m1680033'    
         ],
-        rouming:"Интернет за границей",price:700,r:"₽",socialMediaStatus:true,hit:false,period:"/месяц",internetPackage:40,gb:" ГБ",unlimPackage:"+безлимитные",callMinutes:800,callMinutesText:" мин.",unlimMinutes:"+безлимит на Tele2 России",sms:0,smsText:" SMS"},
+       rouming:"Интернет за границей",price:700,r:"₽",socialMediaStatus:true,hit:false,period:"/месяц",internetPackage:40,gb:" ГБ",unlimPackage:"+безлимитные",callMinutes:800,callMinutesText:" мин.",unlimMinutes:"+безлимит на Tele2 России",sms:0,smsText:" SMS"},
         {name:"Мой разговор",rouming:false,price:200,r:"₽",socialMediaIcons:[], socialMediaStatus: false,hit:false,period:"/месяц",internetPackage:2,gb:" ГБ",unlimPackage:0,callMinutes:200,callMinutesText:" мин.",unlimMinutes:"+безлимит на Tele2 России",sms:0,smsText:" SMS"},
         {name:"Мой Tele2",rouming:false,price:7,r:"₽",socialMediaIcons:[], socialMediaStatus: false,hit:false,period:"/день",internetPackage:5,gb:" ГБ",unlimPackage:0,callMinutes:0,callMinutesText:" мин",unlimMinutes:"+безлимит на Tele2 России",sms:0,smsText:" SMS"},
         {name:"Безлимит",rouming:false,price:650,r:"₽",socialMediaIcons:[], socialMediaStatus: false,hit:false,period:"/месяц",internetPackage:0,gb:" ГБ",unlimPackage:"БЕЗЛИМИТНЫЙ ИНТЕРНЕТ",callMinutes:500,callMinutesText:" мин",unlimMinutes:"+безлимит на Tele2 России",sms:50,smsText:" SMS"},

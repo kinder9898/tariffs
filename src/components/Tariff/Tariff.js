@@ -5,7 +5,7 @@ export default function Tariff({ tariff }) {
    
    
     return (
-        <div className="main">
+         <div className="main">
             <div className="block">
                 <span className="name">{tariff.name}</span>
                 <img src={tariff.hit} alt="" className="hit" />
